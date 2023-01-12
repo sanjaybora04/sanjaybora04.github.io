@@ -46,7 +46,7 @@ class Chatbox {
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
 
-        fetch('https://7419a066ec6b491c.p61.rt3.io/assistant', {
+        fetch('https://d47025ef447e0ba6.p61.rt3.io/assistant', {
             method: 'POST',
             body: JSON.stringify({ msg: text1 }),
             mode: 'cors',
